@@ -1,0 +1,76 @@
+@import "./pwrln.css";
+
+.theme-dark {
+    --color-fg-alt: #f9f5ff;
+    --color-fg: #ded5ec;
+    --color-fg-dim: #b1a4cb;
+    --color-bg-alt: #313244;
+    --color-bg: #1e1e2e;
+    --color-bg-dim: #11111b;
+
+    --color-accent-300: #3b2867;
+    --color-accent-400: #5b3693;
+    --color-accent-500: #7f36d3;
+    --color-accent-600: #a033ff;
+    --color-accent-800: #cb8fff;
+}
+
+:root {
+    --font: "JetBrains Mono", monospace;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--color-bg-dim);
+    color: var(--color-fg);
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 4em 0;
+    box-sizing: border-box;
+
+    min-height: 100vh;
+}
+
+b,
+i,
+strong,
+em {
+    color: var(--color-fg-alt);
+}
+
+h1 {
+    color: var(--color-accent-alt);
+    padding-bottom: 10px;
+    box-shadow: inset 0 -1px 0 0px var(--color-accent-alt);
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--color-accent-alt);
+    font-weight: normal;
+}
+
+h3 {
+    color: var(--color-fg-alt);
+}
+
+h4,
+h5,
+h6 {
+    color: var(--color-fg-dim);
+}
+
+p {
+    color: var(--color-fg);
+}
+
+a {
+    color: inherit;
+}
+a:not(:hover) {
+    text-decoration: none;
+}
