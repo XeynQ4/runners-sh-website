@@ -13,7 +13,7 @@
     font-weight: 400;
     src:
         local("M PLUS 1 Code"),
-        url("/woff/MPLUS1Code-Regular-Kanjiless.woff2") format("woff2");
+        url("../woff/MPLUS1Code-Regular-Kanjiless.woff2") format("woff2");
 }
 @font-face {
     font-family: "M PLUS 1 Code";
@@ -21,7 +21,7 @@
     font-weight: 500;
     src:
         local("M PLUS 1 Code"),
-        url("/woff/MPLUS1Code-Medium-Kanjiless.woff2") format("woff2");
+        url("../woff/MPLUS1Code-Medium-Kanjiless.woff2") format("woff2");
 }
 
 .theme-dark {
@@ -66,7 +66,7 @@
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
-    src: url("/woff/Iosevka-Regular.woff2") format("woff2");
+    src: url("../woff/Iosevka-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: "Iosevka Web";
@@ -74,5 +74,5 @@
     font-weight: 700;
     font-stretch: normal;
     font-style: normal;
-    src: url("/woff/Iosevka-Bold.woff2") format("woff2");
+    src: url("../woff/Iosevka-Bold.woff2") format("woff2");
 }
